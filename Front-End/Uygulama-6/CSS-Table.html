@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+
+        }
+
+        table th {
+            text-align: left;
+            background-color: rgb(77, 77, 194);
+            color: white;
+        }
+
+        table th,
+        table td {
+            border: 1px solid rgb(206, 197, 197);
+            padding: 8px;
+
+        }
+
+        table tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        table tbody tr:hover {
+
+            background-color: #ddd !important;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Ürün</th>
+                <th>Açıklama</th>
+                <th>Ücret</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ürün 1</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>10 TL</td>
+            </tr>
+            <tr>
+                <td>Ürün 2</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>50 TL</td>
+            </tr>
+            <tr>
+                <td>Ürün 3</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>54 TL</td>
+            </tr>
+            <tr>
+                <td>Ürün 4</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>61 TL</td>
+            </tr>
+            <tr>
+                <td>Ürün 5</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>34 TL</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
